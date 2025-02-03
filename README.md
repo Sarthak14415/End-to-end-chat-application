@@ -1,6 +1,8 @@
 # End-to-end-chat-application
 **Multi-Client Chat Server – Project Overview**
 
+![image](https://github.com/user-attachments/assets/00a0c015-81dc-495c-8558-63aed7b9b426)
+
 📌 Project Description
 
 This project is a multi-client chat server implemented in C++ using Winsock. It allows multiple clients to connect and exchange messages with the server simultaneously. The server efficiently manages client connections using a thread pool, ensuring optimal performance without excessive resource consumption.
@@ -114,4 +116,4 @@ Mutex (std::mutex) ensures safe access to the client queue.
 Queue (std::queue<SOCKET>) stores incoming client connections.
 Worker threads access the queue one at a time to prevent race cond
 
-![image](https://github.com/user-attachments/assets/00a0c015-81dc-495c-8558-63aed7b9b426)
+
