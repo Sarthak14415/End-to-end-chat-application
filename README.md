@@ -114,3 +114,4 @@ Mutex (std::mutex) ensures safe access to the client queue.
 Queue (std::queue<SOCKET>) stores incoming client connections.
 Worker threads access the queue one at a time to prevent race cond
 
+![image](https://github.com/user-attachments/assets/00a0c015-81dc-495c-8558-63aed7b9b426)
